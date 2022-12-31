@@ -1,7 +1,8 @@
 # !/bin/bash
 # Programa para realizar operaciones utilitarias de postgres
-# Autor: Julian Camilo Morales Agudelo - @JulianCMoralesA
-opcion=0
+# Autor: Julian Camilo Morales Agudelo - @JulianCMoralesA juliancmorales10@gmail.com
+
+option=0
 nombre=Julian
 
 echo "Opción: $opcion y Nombre: $nombre"

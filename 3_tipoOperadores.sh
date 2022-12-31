@@ -1,9 +1,10 @@
 # !/bin/bash
 # Programa para revisar los tipos de operadores
-# Autor: Julian Camilo Morales Agudelo - @JulianCMoralesA
+# Autor: Julian Camilo Morales Agudelo - @JulianCMoralesA juliancmorales10@gmail.com
 
 # Establecer idioma 
-#export LANG=C.UTF-8
+# export LANG=C.UTF-8
+
 echo ""
 numA=10
 numB=4

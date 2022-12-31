@@ -1,6 +1,6 @@
 # !/bin/bash
 # Programa para ejemplificar el paso de argumentos
-# Autor: Julian Camilo Morales Agudelo - @JulianCMoralesA
+# Autor: Julian Camilo Morales Agudelo - @JulianCMoralesA juliancmorales10@gmail.com
 
 nombreCurso=$1
 horarioCurso=$2
