@@ -1,8 +1,8 @@
-# !/bin/bash
+#!/bin/bash
 # Programa para revisar los tipos de operadores
 # Autor: Julian Camilo Morales Agudelo - @JulianCMoralesA juliancmorales10@gmail.com
 
-# Establecer idioma 
+# Establecer idioma
 # export LANG=C.UTF-8
 
 echo ""

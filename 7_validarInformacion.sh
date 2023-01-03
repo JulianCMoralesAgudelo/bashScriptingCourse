@@ -2,35 +2,34 @@
 # Programa para ejemplificar como capturar la informacion del usuario y validarla utilizando expresiones regulares
 # Autor: Julian Camilo Morales Agudelo - @JulianCMoralesA juliancmorales10@gmail.com
 
-identificacionRegex='^[0-9]{10}$'
-paisRegex='^EC|COL|US|VEN$'
-fechaNacimientoRegex='^(19|20)([0-9]{2})(0[1-9]|1[0-2])(0[1-9]|[1-2][0-9]|3[0-1])$'
+echo ""
 
-echo "Expresiones Regulares"
+identificacionRegex='^[0-9]{10}$'
+paisRegex='^EC|COL|US$'
+fechaNacimientoRegex='^19|20[0-8]{2}[1-12][1-31]$'
+
+echo "Expresiones regulares"
 read -p "Ingresar una identificacion:" identificacion
-read -p "Ingresar las iniciales de un pais [EC, VEN, COL, US]:" pais
+read -p "Ingresar las iniciales de un país [EC, COL, US]:" pais
 read -p "Ingresar la fecha de nacimiento [yyyyMMdd]:" fechaNacimiento
 
-#Validar identificacion
-
+#Validación Identificación
 if [[ $identificacion =~ $identificacionRegex ]]; then
-    echo "Identificacion $identificacion valida"
+    echo "Identificación $identificacion válida"
 else
-    echo "Identificacion $identificacion invalida"
+    echo "Identificación $identificacion inválida"
 fi
 
-#Validacion Pais
-
+#Validación País
 if [[ $pais =~ $paisRegex ]]; then
-    echo "Pais $pais valido"
+    echo "País $pais válido"
 else
-    echo "Pais $pais invalido"
+    echo "País $pais inválido"
 fi
 
-#Validacion fecha de nacimiento
-
+#Validación Fecha Nacimiento
 if [[ $fechaNacimiento =~ $fechaNacimientoRegex ]]; then
-    echo "Fecha de nacimineto $fechaNacimiento valida"
+    echo "Fecha Nacimiento $fechaNacimiento válida"
 else
-    echo "Fecha Nacimiento $fechaNacimiento invalida"
+    echo "Fecha Nacimiento $fechaNacimiento inválida"
 fi

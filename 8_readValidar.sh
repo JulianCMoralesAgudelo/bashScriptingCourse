@@ -1,14 +1,14 @@
 #!/bin/bash
-# Programa para ejemplificar como capturar la informacion del usuario y validarla utilizando expresiones regulares
+# Programa para ejemplificar como capturar la informacion del usuario y validarla.
 # Autor: Julian Camilo Morales Agudelo - @JulianCMoralesA juliancmorales10@gmail.com
 
 #read -s -> Oculta la información entrante por propio usuario.
-#read -n[1,2,3,4…] -> Mantiene la linea de ejecución, 
+#read -n[1,2,3,4…] -> Mantiene la linea de ejecución,
 #la misma linea en la que estamos hasta que llegue al numero de carácteres definido.
 #read -p -> Indica que hay que dejar la informacion ingresada en la variable siguiente.
 
 echo ""
- 
+
 option=0
 backupName=""
 clave=""

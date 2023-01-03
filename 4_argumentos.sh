@@ -1,4 +1,4 @@
-# !/bin/bash
+#!/bin/bash
 # Programa para ejemplificar el paso de argumentos
 # Autor: Julian Camilo Morales Agudelo - @JulianCMoralesA juliancmorales10@gmail.com
 

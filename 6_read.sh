@@ -1,5 +1,5 @@
-# !/bin/bash
-# Programa para capturar informacion comando read
+#!/bin/bash
+# Programa para capturar informacion con el comando read
 # Autor: Julian Camilo Morales Agudelo - @JulianCMoralesA juliancmorales10@gmail.com
 
 echo ""

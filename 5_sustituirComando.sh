@@ -1,13 +1,13 @@
-# !/bin/bash
+#!/bin/bash
 # Ejecutar comandos de programa y almacenar en variable
 # Autor: Julian Camilo Morales Agudelo - @JulianCMoralesA juliancmorales10@gmail.com
 
-# Establecer idioma 
+# Establecer idioma
 # export LANG=C.UTF-8
 
 echo ""
 
-ubicacionActual=`pwd`
+ubicacionActual=$(pwd)
 infoKernel=$(uname -a)
 
 echo "La ubicación actual es la siguiente: $ubicacionActual"
